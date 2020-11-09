@@ -11,6 +11,14 @@
 	padding-bottom: 1rem;
 }
 
+.navbar {
+	margin-bottom: 1em;
+}
+
+.header {
+	color: #ec8b5e;
+	text-shadow: -3px 4px #eecc88;
+}
 
 #jumbo {
 	width: 100vw;
@@ -56,6 +64,40 @@ h6{
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
+
+.wireframe{
+	width: 66vw;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.user-testing{
+	width: 66vw;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 6%;
+    z-index: 99;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
 
 
 
