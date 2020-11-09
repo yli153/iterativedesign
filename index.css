@@ -1,1 +1,63 @@
 /* Put your style information here! */
+
+.container-fluid{
+	margin-top: 1rem;
+}
+
+.row{
+	padding-left:8rem;
+	padding-right: 8rem;
+	/*padding-top:1rem;*/
+	padding-bottom: 1rem;
+}
+
+
+#jumbo {
+	width: 100vw;
+	padding: 2rem;
+}
+
+.reach-live-home{
+	width: 70vw;
+	
+}
+
+#small-header{
+	padding-top:0rem;
+	padding-bottom:0rem;
+	justify-content: center;
+}
+
+#jumbo-image-1{
+	padding: 2rem;
+	align-content:center;
+	align-items:center;
+}
+
+h6{
+	margin-top: 1rem;
+}
+
+.sketch{
+	width: 33vw;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+#jumbo-image-2{
+	width: 70vw;
+	padding: 2vw;
+	align-content:center;
+	align-items:center;
+}
+
+.sketch-2{
+	width: 66vw;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+
+
+
+
