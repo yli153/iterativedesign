@@ -1,7 +1,8 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
+	<meta charset="utf-8">
     <title>Iterative Design</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
@@ -80,17 +81,17 @@
 			<p>
 				<b>Our startup of choice is Reach.live and we referred to this summary from their Y-Combinator Demo: </b>
 			</p>
-			<div class = "jumbotron " id ="jumbo" style="padding: 4rem; line-height: 1.5; font-size: 1.5rem;">
+			<div class = "jumbotron jumbo" style="padding: 4rem; line-height: 1.5; font-size: 1.5rem;">
 				<p style="text-shadow: -3px 4px #eecc88">
 					<b><i>“Lifestyle creators looking to monetize live content like yoga or cooking classes often have to
  					resort to multiple platforms. Reach.live aims to put all of them together: storefront, scheduling, 
-					payments, subscriptions, donations, and even the video hosting.” </b></i>
+					payments, subscriptions, donations, and even the video hosting.” </i></b>
 				<p>
 			</div>
 			<p>
 				<b>In our interface, we decided to highlight the three aspects below: </b>
 			</p>
-			<div class = "jumbotron " id ="jumbo">
+			<div class = "jumbotron jumbo">
 				<div class = "list">
 	              	<ol type="1">  
 	                <li> 
@@ -101,7 +102,8 @@
 	                </li>
 	                <li>
 	                  Event analytics, where creators can gain detailed insights into their earnings breakdown and data from past events they have hosted. 
-	                </li>
+					</li>
+					</ol>
           		</div>
 			</div>
 			<p>
@@ -127,14 +129,12 @@
 			</p>
 		</div>
 		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h5>
-					All Sketches
-				</h5>
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>All Sketches</b></h5>
 				<h6>
 					Home, Login, Events, and Analytics
 				</h6>
-				<img class="sketch-2" src="images/all-sketches.png">
+				<img class="sketch-2" src="images/all-sketches.png" alt="all sketches">
 			</div>
 		</div>
 
@@ -155,23 +155,17 @@
 			</p>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>
-					Home and Explore Events
-				</h6>
-				<img class="sketch-2" src="images/home_and_explore.png">
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Home and Explore Events</b></h5>
+				<img class="sketch-2" src="images/home_and_explore.png" alt="home page and explore events lo-fi">
 
-				<h6>
-					Home Page
-				</h6>
+				<h6><b>Home Page</b></h6>
 				<p>
 					We all agreed that Reach.live is a platform for both the event participants and the creators. Hence, we put the information (such as discover events, host events, 
 					monetize events, and live interactions with other participants and creators) that these two groups of people that would be interested in on the home page. 
 				</p>
-				<h6>
-					Explore Events Page
-				</h6>
+				<h6><b>Explore Events Page</b></h6>
 				<p>
 					The explore events page showed a set of featured events under each category. We chose to present all categories on one page without using any filter or tabs because 
 					this would make the page look straightforward and would require fewer user interactions. 
@@ -184,16 +178,12 @@
 			</p>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>
-					Events and Analytics (logged in)
-				</h6>
-				<img class="sketch-2" src="images/events_and_analytics.png">
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Events and Analytics (logged in)</b></h5>
+				<img class="sketch-2" src="images/events_and_analytics.png" alt="account and analytics lo-fi">
 
-				<h6>
-					Events Page
-				</h6>
+				<h6><b>Events Page</b></h6>
 				<p>
 					There are two sections on the events page: 1. Discover Events 2. My Events. In the Discover Events section, users would see events 
 					in the default category, and they could view events of other categories when they clicked on the corresponding tabs. We made this design 
@@ -203,12 +193,10 @@
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>
-					Account and Host Events Pop-Up (logged in)
-				</h6>
-				<img class="sketch-2" src="images/account_and_host.png">
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Account and Host Events Pop-Up (logged in)</b></h5>
+				<img class="sketch-2" src="images/account_and_host.png" alt="account and host events pop up lo-fi">
 			</div>
 		</div>
 
@@ -229,41 +217,42 @@
 			</p>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Home Page Before User Login (left)</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Home Page Before User Login (left)</b></h5>
 				<p>The home page introduces what reach.live is, and illustrates how users can use the platform to attend events, host events, and interact with attendees. 
 					We used images to directly show what the platform offers. </p>
 
-				<h6>Explore Events Page Before User Login (right)</h6>
+				<h5><b>Explore Events Page Before User Login (right)</b></h5>
 				<p>The explore events page enables users to quickly look at events hosted on reach.live. The events are divided based on different categories. Events that are 
 					approaching will be prioritized and appear first. This is an important page to incentivize users to sign up given it’s a startup trying to attract first time users. </p>
-				<img class="hifi" src="images/home_events.png">
+				<img class="hifi" src="images/home_events.png" alt="home page and explore events hi-fi">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Home Page After User Login (left)</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Home Page After User Login (left)</b></h5>
 				<p>The home page allows registered users to discover events, register for events, and attend events. For layout hierarchy, we put the most important information on the 
 					left. The top left of the page has a navigation bar for users to quickly navigate to the analytics page and the account page. There is also the  “My Events” section 
 					that presents all the events that a user has signed up for. </p>
 
-				<h6>Host Events Pop Up (right)</h6>
+				<h5><b>Host Events Pop Up (right)</b></h5>
 				<p>The host events button on the home page activates a pop up window which allows users to quickly host an event on reach.live. For users, this design choice is easy to 
 					navigate. The “host event” page has affordances that help users understand without stating it in words. </p>
-				<img class="hifi" src="images/home_host_events.png">
+				<img class="hifi" src="images/home_host_events.png" alt="home and host event pop-up hi-fi">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Analytics Page (left)</h6>
-				<p>The page uses both qualitative and quantitative data to help creators achieve and track their goals on the platform including their cumulative earnings, followers, and views.</p>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Analytics Page (left)</b></h5>
+				<p>The page uses both qualitative and quantitative data to help creators achieve and track their goals on the platform including their cumulative earnings, streaming hours, 
+					followers, and views.</p>
 
-				<h6>Accounts Page (right)</h6>
+				<h5><b>Accounts Page (right)</b></h5>
 				<p>The accounts page enables users to quickly view and change their user profile information, security settings, and payments. </p>
-				<img class="hifi" src="images/accounts_analytics.png">
+				<img class="hifi" src="images/accounts_analytics.png" alt="account and analytics hi-fi">
 			</div>
 		</div>
 		
@@ -273,20 +262,20 @@
 				we made major design changes in our new mockup by adding the following features and elements. </p>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Logout Button</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Logout Button</b></h5>
 				<p>During the studio, users reflected the mockup does not provide an easy way to logout and switch accounts. Therefore, in the 2nd iteration, we designed and added a link on the 
 					navigation bar right beside the “Welcome, Emily” to provide users with an option to sign out if needed. This enhances the overall usability of the website, and provides easy access 
 					for people to switch accounts. </p>
-				<img class="hifi" src="images/home_iterations.png">
+				<img class="hifi" src="images/home_iterations.png" alt="events home page iteration">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Filter Events Dropdown Menu</h6>
-				<p>We designed 3 filter options in the home page to help users quickly identify events that are interesting to them(the type) at a time that they can attend (the date and time).
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Filter Events Dropdown Menu</b></h5>
+				<p>We designed 3 filter options in the home page to help users quickly identify events that are interesting to them(the type) at a time that they can attend (the date and time).</p>
 					<ul>
 						<li><b>Date:</b> One of the most helpful critiques we received is people prioritize dates in deciding what events to sign up for. Therefore, we added a filter and a drop down menu 
 								for users to select the dates that they are looking to register an event for. The options range from both longer timeframes like “this month” to dates that are approaching 
@@ -295,39 +284,37 @@
 								people have work during the day and cannot attend events before 5pm. Also, some users prefer early morning workout events especially because of work from home due to COVID. 
 								So, we added a drop down menu with different options: “all day”, “before 7am”, “7am-noon”, “noon to 5pm”, “5-10pm”, and “after 10pm. </li>
 					</ul>
-				</p>
-				<img class="hifi" src="images/events_iterations.png">
+				<img class="hifi" src="images/events_iterations.png" alt="events dropdown filter iteration">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Monetization Insights</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Monetization Insights</b></h5>
 				<p>During the studio, we recognized creators appreciate qualitative insights in addition to the charts and pie graphs. Therefore, in the analytics page, we added an “Insight” section with the 
-					following 4 quick insights that can help the creator to quickly reflect and make better content decisions. 
+					following 4 quick insights that can help the creator to quickly reflect and make better content decisions. </p>
 					<ul>
 						<li>Most Profitable Earning Component</li>
 						<li>Most Profitable Content Type</li>
 						<li>Major Follower Age Group </li>
 						<li>Most Viewed Content</li>
 					</ul>
-				</p>
-				<img class="hifi" src="images/analytics_iterations.png">
+				<img class="hifi" src="images/analytics_iterations.png" alt="analytics iteraction">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Events Sign-Up</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Events Sign-Up</b></h5>
 				<p>We made buttons that are most important for the user experience such as the “sign up” button stand out so it’s more obvious to users.</p>
 				<p><i>Left: first iteration; Right: second iteration</i></p>
-				<img class="hifi" src="images/sign_up_button_iterations.png">
+				<img class="hifi" src="images/sign_up_button_iterations.png" alt="events sign-up iteration">
 			</div>
 		</div>
 
-		<div class = "row" id = "small-header">
-			<div class = "jumbotron" id="jumbo-image-2">
-				<h6>Accesbility</h6>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Accesibility</b></h5>
 				<p>We were cautious of potential accessibility issues during our design stage. And for pie graphs in our analytics page, our team made sure that 
 					there are enough colour contrasts in the pie charts and data charts. </p>
 			</div>
@@ -335,78 +322,68 @@
 			
 		<div class = "row">
 			<p class="figma-text"><b>Feel free to play around with our final, interactive prototype:</b></p>
-			</div>
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" 
-					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKYSjHsu53dHPNzta8rorD4%2FReach.live%3Fnode-id%3D171%253A682%26scaling%3Dscale-down-width" allowfullscreen></iframe>
-				</div>
+		</div>
+
+		<div class = "row small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1150" height="600" 
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKYSjHsu53dHPNzta8rorD4%2FReach.live%3Fnode-id%3D171%253A682%26viewport%3D125%252C-211%252C0.11030083149671555%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 			</div>
 		</div>
-		
-		<div class = "container-fluid">
-			<div class = "row">
-				<h4 id = "user-testing">
-					User Testing: Results and Analysis
-				</h4>
-			<p>To see how real users would interact with our website, we conducted user testing and collected feedback. Since our platform is open to anyone, we did not post any demographic requirements for 
-				test participants. We provided the users with a brief introduction of our platform and requested them to complete the task of logging into a user account and browsing through available events 
-				and account analytics. The setup of our user testing including the four required sub-tasks and post-test questions are shown below. The sub-tasks we selected are closely related to our core 
-				business function which is to allow anyone to discover, host and monetize events. </p>
-			</div>
 
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						User Testing Setup
-					</h6>
-					<img class="user-testing" src="images/user_testing_setup.PNG" alt="user testing setup">
-					<p>Watch the following videos to see how the users performed: 
-						<a href="https://drive.google.com/drive/folders/1l5Hw-D9mv_EaB05AtJsU9fOSmI5z2r9t?usp=sharing"> User Testing</a></p>
-				</div>
-			</div>
+		<div class = "row">
+			<h4 id = "user-testing">
+				User Testing: Results and Analysis
+			</h4>
+		<p>To see how real users would interact with our website, we conducted user testing and collected feedback. Since our platform is open to anyone, we did not post any demographic requirements for 
+			test participants. We provided the users with a brief introduction of our platform and requested them to complete the task of logging into a user account and browsing through available events 
+			and account analytics. The setup of our user testing including the four required sub-tasks and post-test questions are shown below. The sub-tasks we selected are closely related to our core 
+			business function which is to allow anyone to discover, host and monetize events. </p>
+		</div>
 
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Analysis of the Results
-					</h6>
-					<p>We expect the users to be able to complete the sub-tasks easily without any confusion given our intentional design of clear menu options, minimum number of buttons and intuitive layout. 
-						The results from user testing align with our expectations and turn out to be very positive. One common thing they all mention is that the website is easy to navigate, simple, clear and 
-						well-put together. When watching their interactions with our site, they all like its modern and personal feel and appreciate its current layout. The responses and comments from the three 
-						users are summarized below. </p>
-					<img class="user-testing" src="images/user_comment.png" alt="user testing analysis">
-				</div>
-			</div>
-
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Analysis of the Sub-tasks Performance
-					</h6>
-					<p>In general, the users not only find all four tasks easy to complete, but are also confident that they have completed the tasks successfully. The durations of time they spend on each task 
-						are very similar and no one seems to struggle with a particular task. Though none of the users made an error, there were few moments when some users felt slightly unsure about their actions. 
-					</p>
-					<img class="user-testing" src="images/sub-task_performance.png" alt="sub task performance">
-				</div>
-			</div>
-
-			<div class="row" id ="small-header">
-				<div class="jumbotron" id="jumbo-image-2">
-					<h6>
-						Potential Improvements
-					</h6>
-					<p>Based on the users’ performance and feedback, we would like to make the following improvements to our interface in the future:
-						<ol>
-							<li>Change the “See More” button to “See Events” which will better inform the users about the page they will be directed to</li>
-							<li>Change the “Account” tab to “My Profile” which might better distinguish from “Analytics”</li>
-							<li>Add a pop-up window which shows up whenever the users sign up for a particular event, asking them to confirm their registration</li>
-							<li>Add a page for “My Schedule” which will make it easier for the users to keep track of all the upcoming and past events they will and have participated in</li>
-						</ol>
-					</p>
-				</div>
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>User Testing Setup</b></h5>
+				<img class="user-testing" src="images/user_testing_setup.PNG" alt="user testing setup">
+				<p><b>Watch the following videos to see how the users performed: 
+					<a href="https://drive.google.com/drive/folders/1l5Hw-D9mv_EaB05AtJsU9fOSmI5z2r9t?usp=sharing"> User Testing</a></b></p>
 			</div>
 		</div>
+
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Analysis of the Results</b></h5>
+				<p>We expect the users to be able to complete the sub-tasks easily without any confusion given our intentional design of clear menu options, minimum number of buttons and intuitive layout. 
+					The results from user testing align with our expectations and turn out to be very positive. One common thing they all mention is that the website is easy to navigate, simple, clear and 
+					well-put together. When watching their interactions with our site, they all like its modern and personal feel and appreciate its current layout. The responses and comments from the three 
+					users are summarized below. </p>
+				<img class="user-testing" src="images/user_comment.png" alt="user testing analysis">
+			</div>
+		</div>
+
+		<div class = "row small-header">
+			<div class = "jumbotron jumbo-image-2">
+				<h5><b>Analysis of the Sub-tasks Performance</b></h5>
+				<p>In general, the users not only find all four tasks easy to complete, but are also confident that they have completed the tasks successfully. The durations of time they spend on each task 
+					are very similar and no one seems to struggle with a particular task. Though none of the users made an error, there were few moments when some users felt slightly unsure about their actions. 
+				</p>
+				<img class="user-testing" src="images/sub-task_performance.png" alt="sub task performance">
+			</div>
+		</div>
+
+		<div class="row small-header">
+			<div class="jumbotron jumbo-image-2">
+				<h5><b>Potential Improvements</b></h5>
+				<p>Based on the users’ performance and feedback, we would like to make the following improvements to our interface in the future:</p>
+					<ol>
+						<li>Change the “See More” button to “See Events” which will better inform the users about the page they will be directed to</li>
+						<li>Change the “Account” tab to “My Profile” which might better distinguish from “Analytics”</li>
+						<li>Add a pop-up window which shows up whenever the users sign up for a particular event, asking them to confirm their registration</li>
+						<li>Add a page for “My Schedule” which will make it easier for the users to keep track of all the upcoming and past events they will and have participated in</li>
+					</ol>
+			</div>
+		</div>
+	</div>
 		
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 	<script>
@@ -430,6 +407,6 @@
 		document.documentElement.scrollTop = 0;
 	  }
 	  </script>
-	  </main>
+	</main>
   </body>
 </html>

@@ -1,7 +1,23 @@
-/* Put your style information here! */
-
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Roboto'), local('Roboto-Regular'),
+		 url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  
 .container-fluid{
 	margin-top: 1rem;
+}
+
+main {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .row{
@@ -24,18 +40,18 @@
 	text-shadow: -3px 4px #eecc88;
 }
 
-#jumbo {
+.jumbo {
 	width: 100vw;
 	padding: 2rem;
 }
 
-#small-header{
+.small-header{
 	padding-top:0rem;
 	padding-bottom:0rem;
 	justify-content: center;
 }
 
-#jumbo-image-1{
+.jumbo-image-1{
 	padding: 2rem;
 	align-content:center;
 	align-items:center;
@@ -56,7 +72,7 @@ h6{
 	padding-bottom: 2rem;
 }
 
-#jumbo-image-2{
+.jumbo-image-2{
 	width: 100%;
 	padding: 2vw;
 	align-content:center;
