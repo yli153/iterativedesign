@@ -20,14 +20,13 @@
 	text-shadow: -3px 4px #eecc88;
 }
 
+.figma-text {
+	text-shadow: -3px 4px #eecc88;
+}
+
 #jumbo {
 	width: 100vw;
 	padding: 2rem;
-}
-
-.reach-live-home{
-	width: 70vw;
-	
 }
 
 #small-header{
@@ -42,41 +41,39 @@
 	align-items:center;
 }
 
+h4 {
+	color: #141a46;
+	background: linear-gradient(to bottom, #fff 60%, gold 40%);
+}
+
 h6{
 	margin-top: 1rem;
 }
 
 .sketch{
-	width: 33vw;
+	width: 100%;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
 
 #jumbo-image-2{
-	width: 70vw;
+	width: 100%;
 	padding: 2vw;
 	align-content:center;
 	align-items:center;
 }
 
 .sketch-2{
-	width: 66vw;
+	width: 100%;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
 
-.wireframe{
-	width: 66vw;
+.wireframe, .hifi, .user-testing{
+	width: 100%;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 }
-
-.user-testing{
-	width: 66vw;
-	padding-top: 1rem;
-	padding-bottom: 2rem;
-}
-
 
 #myBtn {
     display: none;
@@ -98,6 +95,7 @@ h6{
     background-color: #555;
   }
 
+ 
 
 
 

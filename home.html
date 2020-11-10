@@ -11,21 +11,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<main>
+	<!-- TODO: put your HTML code here! -->
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f9e29c">
   		<a class="navbar-brand" href="#">Iterative Design</a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#overview">Overview</a>
-		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#context">Context</a>
 		      </li>
@@ -36,10 +34,10 @@
 		        <a class="nav-link" href="#wireframes">Wireframes</a>
 			  </li>
 			  <li class="nav-item">
-		        <a class="nav-link" href="#hi-fi">Hi-Fi (Iteration 1)</a>
+		        <a class="nav-link" href="#hi-fi">Hi-Fi (ver.1)</a>
 			  </li>
 			  <li class="nav-item">
-		        <a class="nav-link" href="#hi-fi2">Hi-Fi (Iteration 2)</a>
+		        <a class="nav-link" href="#hi-fi2">Hi-Fi (ver.2)</a>
 			  </li>
 			  <li class="nav-item">
 		        <a class="nav-link" href="#user-testing">User Testing</a>
@@ -52,7 +50,7 @@
         <div class="row" style="padding-left: 0; padding-right:0">
             <div class="col-md-4 my-auto">
               <h1 style="text-align: center;" class="header"><strong>Iterative Design</strong></h1>
-              <h4 style="text-align: center; color: #141a46;; margin-bottom: 1vw;"><em>Mockup for Reach.live</em></h2>
+              <h3 style="text-align: center; color: #6b6b8c;; margin-bottom: 1vw;"><em>Mockup for Reach.live</em></h3>
 			</div>
 			<div class="col-md-8 my-auto">
 				<img class="header-img" style="width: 100%; height: auto" src="images/header.PNG" alt="iterative design">
@@ -62,20 +60,19 @@
 	  
 	<div class = "container-fluid">
 		<div class = "row">
-			<h4 id = "overview">
-				Overview
-			</h4>
+			<h4>Overview</h4>
 		</div>
 
 		<div class = "row" >
 			<p>
-					Iterative prototyping is an essential part of creating user interfaces. In this project, we design an interface for a startup from scratch using only their concept; we did not use anything they’ve already built such as logo, images, or content. Afterwards, we iterated on our design based feedback from classmates and an industry critic, then tested our final prototype on real users through usertesting.com. 
+				Iterative prototyping is an essential part of creating user interfaces. In this project, we design an interface for a startup from scratch using only 
+				their concept; we did not use anything they’ve already built such as logo, images, or content. Afterwards, we iterated on our design based feedback from 
+				classmates and an industry critic, and tested our final prototype on real users through usertesting.com. 
 			</p>
-			
 		</div>
 
-		<div class = "row">
-			<h4 id = "context">
+		<div class="row">
+			<h4 id="context">
 				Context
 			</h4>
 		</div>
@@ -84,14 +81,14 @@
 				<b>Our startup of choice is Reach.live and we referred to this summary from their Y-Combinator Demo: </b>
 			</p>
 			<div class = "jumbotron " id ="jumbo" style="padding: 4rem; line-height: 1.5; font-size: 1.5rem;">
-				<p>
+				<p style="text-shadow: -3px 4px #eecc88">
 					<b><i>“Lifestyle creators looking to monetize live content like yoga or cooking classes often have to
  					resort to multiple platforms. Reach.live aims to put all of them together: storefront, scheduling, 
-					payments, subscriptions, donations, and even the video hosting.” </b> </i>
+					payments, subscriptions, donations, and even the video hosting.” </b></i>
 				<p>
 			</div>
 			<p>
-				<b>In our interface, we decided to highlight the below three aspects: </b>
+				<b>In our interface, we decided to highlight the three aspects below: </b>
 			</p>
 			<div class = "jumbotron " id ="jumbo">
 				<div class = "list">
@@ -108,9 +105,12 @@
           		</div>
 			</div>
 			<p>
-				Our target user group is lifestyle creators, especially those hoping to profit from their contents and discover contents from fellow creators. Since these creators mostly use produce and livestream contents on their computers, we decided to create a web interface to enable easier access and more flexible layouts. 
+				Our target user group is lifestyle creators, especially those hoping to profit from their contents and discover contents from fellow creators. 
+				Since these creators mostly use produce and livestream contents on their computers, we decided to create a web interface to enable easier access 
+				and more flexible layouts. 
 			</p>
 		</div>
+
 		<div class = "row">
 			<h4 id = "sketches">
 				Sketches
@@ -118,7 +118,12 @@
 		</div>
 		<div class = "row">
 			<p>
-				Each member of our group drew a set of sketches for at least three different pages: home page, event page, and analytics page.  Our design for the event page differed a lot. Sally's design only showed the categories of the event to the users when they landed on the event page, and the users would find out the information about the events after they clicked on the category they are interested in. Sophia's design showed the featured events of each category on the event page. In contrast, Yuxiao's design only showed a list of the events of the default category (for example, fashion), and it would present the events in other categories after users clicked on the corresponding filters. Angela designed the event page from the point of creators. Creators could edit event information and see attendees information on the page.
+				Each member of our group drew a set of sketches for at least three different pages: home page, event page, and analytics page. Our design for the 
+				event page differed a lot. Sally's design only showed the categories of the event to the users when they landed on the event page, and the users 
+				would find out the information about the events after they clicked on the category they are interested in. Sophia's design showed the featured events 
+				of each category on the event page. In contrast, Yuxiao's design only showed a list of the events of the default category (for example, fashion), and 
+				it would present the events in other categories after users clicked on the corresponding filters. Angela designed the event page from the point of creators. 
+				Creators could edit event information and see attendees information on the page.
 			</p>
 		</div>
 		<div class = "row" id = "small-header">
@@ -143,10 +148,13 @@
 				After we finished sketching, our group had a meeting to discuss our designs and combine the sketches above into a set of wireframes. 
 			</p>
 			<p>
-				Without logging in, users could only see the Home page and the Explore Events page.  Users would only see the remaining pages of the website after they have logged in, as we believed this design choice would make more users register for our website. If users are registered, then they are more likely to become loyal users, because Reach.live could reach out to users through email and advertise their events. Since Reach.live is a startup, we believed having more loyal users would be really beneficial to Reach.live. If more users are loyal to Reach. live, Reach.live will be likely to be more profitable. 
+				Without logging in, users could only see the Home page and the Explore Events page.  Users would only see the remaining pages of the website 
+				after they have logged in, as we believed this design choice would make more users register for our website. If users are registered, then they are 
+				more likely to become loyal users, because Reach.live could reach out to users through email and advertise their events. Since Reach.live is a startup, 
+				we believed having more loyal users would be really beneficial to Reach.live. If more users are loyal to Reach. live, Reach.live will be likely to be more profitable. 
 			</p>
-
 		</div>
+
 		<div class = "row" id = "small-header">
 			<div class = "jumbotron" id="jumbo-image-2">
 				<h6>
@@ -158,17 +166,15 @@
 					Home Page
 				</h6>
 				<p>
-
-					We all agreed that Reach.live is a platform for both the event participants and the creators. Hence, we put the information (such as discover events, host events, monetize events, and live interactions with other participants and creators) that these two groups of people that would be interested in on the home page. 
-
+					We all agreed that Reach.live is a platform for both the event participants and the creators. Hence, we put the information (such as discover events, host events, 
+					monetize events, and live interactions with other participants and creators) that these two groups of people that would be interested in on the home page. 
 				</p>
 				<h6>
 					Explore Events Page
 				</h6>
 				<p>
-
-					The explore events page showed a set of featured events under each category. We chose to present all categories on one page without using any filter or tabs because this would make the page look straightforward and would require fewer user interactions. 
-
+					The explore events page showed a set of featured events under each category. We chose to present all categories on one page without using any filter or tabs because 
+					this would make the page look straightforward and would require fewer user interactions. 
 				</p>
 			</div>
 		</div>
@@ -189,131 +195,155 @@
 					Events Page
 				</h6>
 				<p>
-
 					There are two sections on the events page: 1. Discover Events 2. My Events. In the Discover Events section, users would see events 
 					in the default category, and they could view events of other categories when they clicked on the corresponding tabs. We made this design 
 					choice instead of showing events from different categories all together as we believed this would help users discover the events that they
 					 want to attend more clearly. 
 				</p>
-				
 			</div>
 		</div>
 
 		<div class = "row" id = "small-header">
 			<div class = "jumbotron" id="jumbo-image-2">
 				<h6>
-					Account and Host Events (logged in)
+					Account and Host Events Pop-Up (logged in)
 				</h6>
 				<img class="sketch-2" src="Account and Host Events.png">
-				
 			</div>
 		</div>
 
-		<div class = "container-fluid">
-			<div class = "row">
-				<h4 id = "hi-fi">
-					High-Fidelity Prototype: Iteration 1
-				</h4>
-			</div>
+		<div class = "row">
+			<h4 id = "hi-fi">
+				High-Fidelity Prototype: Iteration 1
+			</h4>
+		</div>
 
-			<div class = "row" >
-				<p>
-					Creating the visual design of the high-fi mockup was a process that brings together insights from the wireframe and branding. </p>
+		<div class = "row" >
+			<p>Creating the visual design of the high-fi mockup was a process that brings together insights from the wireframe and branding. </p>
 
-				<p>We first decided on a visual style that attracts the target audience of reach.live by experimenting different colour palettes and visual 
+			<p>We first decided on a visual style that attracts the target audience of reach.live by experimenting different colour palettes and visual 
 				   elements. In the end, we decided to use orange as the theme colour because of its connotations and the vibe that it gives off to people. 
 				   Additionally, we chose a curly font for titles to make it a more fun experience. Titles are in orange, subtitles are in dark blue, and texts 
 				   are in black. The design choices we made are consistent for all the pages in the mockup. Below are some of the key features in the Hi-Fi mockup 
 				   that we highlighted. 
-				</p>
-			</div>
-
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Home Page Before User Login (left)
-					</h6>
-					<p>
-						The home page introduces what reach.live is, and illustrates how users can use the platform to attend events, host events, and interact with attendees. 
-						We used images to directly show what the platform offers. 
-					</p>
-
-					<h6>Explore Events Page Before User Login (right)
-					</h6>
-					<p>
-						The explore events page enables users to quickly look at events hosted on reach.live. The events are divided based on different categories. Events that are 
-						approaching will be prioritized and appear first. This is an important page to incentivize users to sign up given it’s a startup trying to attract first time users. 
-					</p>
-					<img class="wireframe" src="Events and Analytics.png">
-				</div>
-			</div>
-
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Home Page After User Login (left)
-					</h6>
-					<p>
-						The home page allows registered users to discover events, register for events, and attend events. For layout hierarchy, we put the most important information on the 
-						left. The top left of the page has a navigation bar for users to quickly navigate to the analytics page and the account page. There is also the  “My Events” section 
-						that presents all the events that a user has signed up for. 
-
-					</p>
-
-					<h6>Host Events Pop Up (right)
-					</h6>
-					<p>
-						The host events button on the home page activates a pop up window which allows users to quickly host an event on reach.live. For users, this design choice is easy to 
-						navigate. The “host event” page has affordances that help users understand without stating it in words. 
-					</p>
-					<img class="wireframe" src="Events and Analytics.png">
-				</div>
-			</div>
-
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Analytics Page (left)
-					</h6>
-					<p>
-						The page uses both qualitative and quantitative data to help creators achieve and track their goals on the platform including their cumulative earnings, followers, and views.  
-					</p>
-
-					<h6>Accounts Page (right)
-					</h6>
-					<p>
-						The accounts page enables users to quickly view and change their user profile information, security settings, and payments. 
-					</p>
-					<img class="wireframe" src="Events and Analytics.png">
-				</div>
-			</div>
+			</p>
 		</div>
-	
-		<div class = "container-fluid">
-			<div class = "row">
-				<h4 id = "hi-fi2">
-					High-Fidelity Prototype: Iteration 2
-				</h4>
 
-				<p>During our studio, we received many feedbacks that were especially helpful for our 2nd iteration Hi-Fi Mockup design. After rounds of discussions on issues brought up in the studio, 
-					we made major design changes in our new mockup by adding the following features and elements. 
-				</p>
-			</div>
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Home Page Before User Login (left)</h6>
+				<p>The home page introduces what reach.live is, and illustrates how users can use the platform to attend events, host events, and interact with attendees. 
+					We used images to directly show what the platform offers. </p>
 
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
-					<h6>
-						Logout Button
-					</h6>
-					<p>
-						During the studio, users reflected the mockup does not provide an easy way to logout and switch accounts. Therefore, in the 2nd iteration, we designed and added a link on the 
-						navigation bar right beside the “Welcome, Emily” to provide users with an option to sign out if needed. This enhances the overall usability of the website, and provides easy access 
-						for people to switch accounts. </p>
-					<p style="color: #141a46"><em>Left: 1st iteration; Right: 2nd iteration</em>
-				</div>
+				<h6>Explore Events Page Before User Login (right)</h6>
+				<p>The explore events page enables users to quickly look at events hosted on reach.live. The events are divided based on different categories. Events that are 
+					approaching will be prioritized and appear first. This is an important page to incentivize users to sign up given it’s a startup trying to attract first time users. </p>
+				<img class="hifi" src="images/home_events.png">
 			</div>
 		</div>
 
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Home Page After User Login (left)</h6>
+				<p>The home page allows registered users to discover events, register for events, and attend events. For layout hierarchy, we put the most important information on the 
+					left. The top left of the page has a navigation bar for users to quickly navigate to the analytics page and the account page. There is also the  “My Events” section 
+					that presents all the events that a user has signed up for. </p>
+
+				<h6>Host Events Pop Up (right)</h6>
+				<p>The host events button on the home page activates a pop up window which allows users to quickly host an event on reach.live. For users, this design choice is easy to 
+					navigate. The “host event” page has affordances that help users understand without stating it in words. </p>
+				<img class="hifi" src="images/home_host_events.png">
+			</div>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Analytics Page (left)</h6>
+				<p>The page uses both qualitative and quantitative data to help creators achieve and track their goals on the platform including their cumulative earnings, followers, and views.</p>
+
+				<h6>Accounts Page (right)</h6>
+				<p>The accounts page enables users to quickly view and change their user profile information, security settings, and payments. </p>
+				<img class="hifi" src="images/accounts_analytics.png">
+			</div>
+		</div>
+		
+		<div class = "row">
+			<h4 id = "hi-fi2">High-Fidelity Prototype: Iteration 2</h4>
+			<p>During our studio, we received many feedbacks that were especially helpful for our 2nd iteration Hi-Fi Mockup design. After rounds of discussions on issues brought up in the studio, 
+				we made major design changes in our new mockup by adding the following features and elements. </p>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Logout Button</h6>
+				<p>During the studio, users reflected the mockup does not provide an easy way to logout and switch accounts. Therefore, in the 2nd iteration, we designed and added a link on the 
+					navigation bar right beside the “Welcome, Emily” to provide users with an option to sign out if needed. This enhances the overall usability of the website, and provides easy access 
+					for people to switch accounts. </p>
+				<img class="hifi" src="images/home_iterations.png">
+			</div>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Filter Events Dropdown Menu</h6>
+				<p>We designed 3 filter options in the home page to help users quickly identify events that are interesting to them(the type) at a time that they can attend (the date and time).
+					<ul>
+						<li><b>Date:</b> One of the most helpful critiques we received is people prioritize dates in deciding what events to sign up for. Therefore, we added a filter and a drop down menu 
+								for users to select the dates that they are looking to register an event for. The options range from both longer timeframes like “this month” to dates that are approaching 
+								like “today” and “tomorrow”. </li>
+						<li><b>Time:</b> In addition to dates, users in our studio reflect that the time in the day is also very important when they make a decision on what events to attend. For example, many 
+								people have work during the day and cannot attend events before 5pm. Also, some users prefer early morning workout events especially because of work from home due to COVID. 
+								So, we added a drop down menu with different options: “all day”, “before 7am”, “7am-noon”, “noon to 5pm”, “5-10pm”, and “after 10pm. </li>
+					</ul>
+				</p>
+				<img class="hifi" src="images/events_iterations.png">
+			</div>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Monetization Insights</h6>
+				<p>During the studio, we recognized creators appreciate qualitative insights in addition to the charts and pie graphs. Therefore, in the analytics page, we added an “Insight” section with the 
+					following 4 quick insights that can help the creator to quickly reflect and make better content decisions. 
+					<ul>
+						<li>Most Profitable Earning Component</li>
+						<li>Most Profitable Content Type</li>
+						<li>Major Follower Age Group </li>
+						<li>Most Viewed Content</li>
+					</ul>
+				</p>
+				<img class="hifi" src="images/analytics_iterations.png">
+			</div>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Events Sign-Up</h6>
+				<p>We made buttons that are most important for the user experience such as the “sign up” button stand out so it’s more obvious to users.</p>
+				<p><i>Left: first iteration; Right: second iteration</i></p>
+				<img class="hifi" src="images/sign_up_button_iterations.png">
+			</div>
+		</div>
+
+		<div class = "row" id = "small-header">
+			<div class = "jumbotron" id="jumbo-image-2">
+				<h6>Accesbility</h6>
+				<p>We were cautious of potential accessibility issues during our design stage. And for pie graphs in our analytics page, our team made sure that 
+					there are enough colour contrasts in the pie charts and data charts. </p>
+			</div>
+		</div>
+			
+		<div class = "row">
+			<p class="figma-text"><b>Feel free to play around with our final, interactive prototype:</b></p>
+			</div>
+			<div class = "row" id = "small-header">
+				<div class = "jumbotron" id="jumbo-image-2">
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" 
+					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKYSjHsu53dHPNzta8rorD4%2FReach.live%3Fnode-id%3D171%253A682%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		
 		<div class = "container-fluid">
 			<div class = "row">
 				<h4 id = "user-testing">
@@ -356,14 +386,13 @@
 					</h6>
 					<p>In general, the users not only find all four tasks easy to complete, but are also confident that they have completed the tasks successfully. The durations of time they spend on each task 
 						are very similar and no one seems to struggle with a particular task. Though none of the users made an error, there were few moments when some users felt slightly unsure about their actions. 
-						Each user’s performance on the four sub-tasks are as follows:
 					</p>
 					<img class="user-testing" src="images/sub-task_performance.png" alt="sub task performance">
 				</div>
 			</div>
 
-			<div class = "row" id = "small-header">
-				<div class = "jumbotron" id="jumbo-image-2">
+			<div class="row" id ="small-header">
+				<div class="jumbotron" id="jumbo-image-2">
 					<h6>
 						Potential Improvements
 					</h6>
@@ -376,9 +405,9 @@
 						</ol>
 					</p>
 				</div>
-			</div>	
+			</div>
 		</div>
-
+		
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 	<script>
 	  //Get the button
@@ -401,7 +430,6 @@
 		document.documentElement.scrollTop = 0;
 	  }
 	  </script>
-
-
+	  </main>
   </body>
 </html>
